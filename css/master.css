@@ -1,0 +1,33 @@
+body {
+    background: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+}
+
+#avatar {
+    max-width: 100%;
+    background-color: #268039;
+    animation-name: avatar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: avatar;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@keyframes avatar {
+    0% { background-color:#268039; }
+    50% { background-color:#37a74e; }
+    100% { background-color:#268039; }
+}
+
+@-webkit-keyframes avatar {
+    0% { background-color:#268039; }
+    50% { background-color:#37a74e; }
+    100% { background-color:#268039; }
+}
